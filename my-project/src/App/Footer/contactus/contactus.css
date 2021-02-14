@@ -1,0 +1,133 @@
+.Appointment {
+    height: 679px;
+    background: url(./background2.png) center top no-repeat;
+    background-size: cover;
+}
+.us {
+    height: 142px;
+    background-color: white;
+}
+.Appointment h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-left: 20%;
+    padding-top: 4%;
+}
+.Appointment h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-left: 20%;
+    padding-top: 1%;
+}
+.form-1 input{
+    width: 291px;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: 3%; 
+}
+.form-1 {
+    margin-left: 17%;
+}
+.form-2 select{
+    width: 291px;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.form-2 {
+    margin-left: 17%; 
+    
+}
+.form-3 textarea{
+    text-decoration: none;
+    width: 628px;
+    height: 140px;
+    margin-top: 1%;
+}
+.form-3 {
+    margin-left: 19.5%;
+}
+.button-contact button{
+    width: 218px;
+    height: 58px;
+    margin-top: 2%;
+    margin-left: 19.5%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.button-contact button:hover{
+    background-color: #FF7B47;
+}
+.button-contact button:active {
+    background-color: black; 
+}
+.form-3 textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.form-1 input::placeholder {
+    text-align: center;
+}
+.us-text {
+    float: left;
+    margin-left: 20%;
+}
+.us-text h2 {
+    color:  #252B42;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 6%;
+}
+.us-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    padding-top: 3%;
+}
+.button-us button{        
+    width: 218px;
+    height: 58px;
+    margin-top: 2%;
+    margin-left: 19.5%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #252B42;
+    transition: .15s ease-in-out;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.button-us button:hover{
+    background-color: #FF7B47;
+    color: white;
+}
+.button-us button:active {
+    background-color: black; 
+}

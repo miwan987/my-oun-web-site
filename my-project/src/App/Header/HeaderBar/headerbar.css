@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    
+    }
+    .left {
+        float: left;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    .left-li {
+        list-style-type: none;
+    }
+    .left-li a {
+        
+        color: white;
+        font-size: 27px;
+        
+    }
+    .right-li {
+        display: inline-block;
+        margin-right: 10%;
+        padding-left: 0.5%;
+        vertical-align: middle;
+    }
+    .right-li a {
+        color: white;
+        font-size: 16px;
+    }
+    .right {
+        float: right;
+        width: 350px;
+        margin-top: 3.4%;
+        
+    }
+    .right-2 {
+        float: right;
+        width: 100px;
+        margin-top: 3.4%;
+    }

@@ -1,0 +1,101 @@
+const people = [
+{
+    id:1,
+    gender:"famale",
+    profession:"developer",
+    experience:5,
+    age:25,
+    image:"img/image1.jpg",
+},
+{
+    id:2,
+    gender:"famale",
+    profession:"developer",
+    experience:2,
+    age:23,
+    image:"img/image2.jpg",
+},
+{
+    id:3,
+    gender:"famale",
+    profession:"developer",
+    experience:3,
+    age:24,
+    image:"img/image3.jpg",
+
+},
+{
+    id:4,
+    gender:"male",
+    profession:"developer",
+    experience:4,
+    age:29,
+    image:"img/image4.jpg",
+},
+{
+    id:5,
+    gender:"male",
+    profession:"developer",
+    experience:2,
+    age:22,
+    image:"img/image5.jpg",
+},
+{
+    id:6,
+    gender:"famale",
+    profession:"developer",
+    experience:3,
+    age:46,
+    image:"img/image6.jpg",
+},
+{
+    id:7,
+    gender:"male",
+    profession:"developer",
+    experience:2,
+    age:31,
+    image:"img/image7.jpg",
+},
+{
+    id:8,
+    gender:"famale",
+    profession:"developer",
+    experience:3,
+    age:28,
+    image:"img/image8.jpg",
+},
+{
+    id:9,
+    gender:"male",
+    profession:"developer",
+    experience:5,
+    age:36,
+    image:"img/image9.jpg"
+},
+{
+    id:10,
+    gender:"male",
+    profession:"developer",
+    experience:8,
+    age:24,
+    image:"img/image10.jpg",
+},
+{
+    id:11,
+    gender:"male",
+    profession:"developer",
+    experience:6,
+    age:43,
+    image:"img/image11.jpg",
+},
+{
+    id:12,
+    gender:"famale",
+    profession:"developer",
+    experience:4,
+    age:35,
+    image:"img/image12.jpg",
+}
+]
+ 
+    export default people

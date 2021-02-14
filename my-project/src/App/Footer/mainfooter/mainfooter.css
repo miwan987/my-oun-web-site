@@ -1,0 +1,108 @@
+.main-footer {
+    height: 526px;
+}
+.bottom-footer {
+    height: 74px;
+    background: #17213C;
+}
+.bottom-footer h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 15%;
+    padding-top: 1.8%;
+}
+.top-footer {
+    height: 142px;
+    background-color: #252B42;
+}
+.middle-footer {
+    height: 310px;
+    background-color: #252B42;
+    display: flex;
+    margin: 0px;
+    padding-left: 20%; 
+}
+.top-footer-right a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+    margin-left: 17%;
+    padding-top: 2%;
+}
+.top-footer-right li {
+    list-style-type: none;
+}
+.top-footer-left a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    float: right;
+    margin-right: 2%;
+    padding-top: 3%;
+}
+.top-footer-left li {
+    list-style-type: none;
+}
+.right-ul-2 {
+    margin-right: 17%;
+}
+.main-footer hr{
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    color: white;
+}
+.middle-footer a {
+    text-decoration: none;   
+}
+.middle-footer li {
+    text-decoration: none;
+    list-style-type: none;  
+}
+.top-li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-top: 35%;
+}
+.middle-div {
+    width: 200px;
+}
+.foot-li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding-top: 3%;
+}
+.middle-ul li:hover {
+      color: white;
+}
+.top-li:hover {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    padding-top: 35%;
+    
+}

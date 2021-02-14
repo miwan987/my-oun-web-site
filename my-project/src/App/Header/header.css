@@ -1,0 +1,13 @@
+*{margin:0; padding:0; border:0}
+    
+  
+
+.main-header {
+height: 680px;
+background: url(img/background.png) center top no-repeat;
+background-size: cover;
+}
+a {
+text-decoration: none;
+
+}

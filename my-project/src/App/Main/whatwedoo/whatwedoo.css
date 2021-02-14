@@ -1,0 +1,160 @@
+.what-we-doo {
+	display: block;
+	height: 1600px;
+	width: 100%;
+	background-color: #252B42;
+}
+ .gender a {
+    text-decoration: none;
+    color: #252B42;
+    
+    }
+	.gender a:visited {
+        text-decoration: none;
+        color: black;
+        
+        }
+.grid-blocks-people {
+	width: 200px;
+	height: 400px;
+	background-color: white;
+	align-self: center;
+	justify-self: center;      
+}
+.what-we-do-grid-people {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	grid-template-columns: repeat(4, 250px);
+	grid-gap: 25px;
+	margin-top: 2%;
+	width: 100%;
+}
+.grid-blocks-container-people {
+	padding-left: 0%;
+	padding-top: 0%;
+	
+}
+.grid-blocks-container-people h2 {
+	font-size: 19px;
+	padding-left: 8%;
+	color: #252B42;
+
+}
+.ini-people {
+	display: block;
+	align-items: center;
+}
+.grid-blocks-people p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	position: static;
+	width: 245px;
+	height: 60px;
+	left: 40px;
+	top: 98px;
+	margin-top: 7%;
+	color: #737373;
+	;
+}
+.ini-people img{
+	width: 200px;
+	height: 200px;
+}
+	.gender {
+		padding-left: 5%;
+		padding-top: 2%;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		color: black;
+	}
+	.help {
+		display: flex;
+		justify-content: center;
+		padding-top: 10%;
+	}
+	.help-now {
+		height: 35px;
+		width: 150px;
+		color: black;
+		font-size: 25px;
+		font-family: Montserrat;
+		font-style: normal;
+		background: none;
+		border:  #737373 solid 1px;
+	}
+	.help-now:hover {
+		color: white;
+		background-color: #FF7B47;
+	}
+	.help-now:active {
+		color: white;
+		background-color: black;	
+	}
+	@media (min-width : 850px) and (max-width : 1140px) {
+		.what-we-doo {
+			height: 2000px;
+		}
+		.what-we-do-grid-people {
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            grid-template-columns: repeat(3, 250px);
+            grid-gap: 25px;
+            margin-top: 2%;
+            width: 100%;
+        }
+	}
+	@media (min-width : 600px) and (max-width : 849px) {
+		.what-we-doo {
+			height: 2800px;
+		}
+		.what-we-do-grid-people {
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            grid-template-columns: repeat(2, 250px);
+            grid-gap: 25px;
+            margin-top: 2%;
+            width: 100%;
+        }
+	}
+	@media (min-width : 400px) and (max-width : 599px) {
+		.what-we-doo {
+			height: 5600px;
+		}
+		.what-we-do-grid-people {
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            grid-template-columns: repeat(1, 250px);
+            grid-gap: 25px;
+            margin-top: 2%;
+            width: 100%;
+        }
+	}
+    .text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .text h1 {
+        color: white;
+        font-size: 80px;
+        text-align: center;
+    }
+    .text p {
+        color: white;
+        font-size: 16px;
+        text-align: left;
+        text-align: center;
+    }

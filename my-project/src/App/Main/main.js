@@ -3,8 +3,8 @@ import Meatourteam from "./meatourteam/meatourteam"
 import Whatclientsay from "./whatclientsay/whatclientsay"
 import Whatweare from "./whatweare/whatweare"
 import Whatwedo from "./whatwedo/whatwedo"
+import Whatpeople from "./whatwedoo/whatwepeople"
 
-import Whatwedoo from "./whatwedoo/whatwedoo"
 
 
 class Main extends Component {
@@ -12,7 +12,7 @@ class Main extends Component {
         return (
             <>
             <main>
-            <Whatwedoo/>
+            <Whatpeople/>
             <Whatwedo/>
             <Whatweare/>
             <Whatclientsay/>

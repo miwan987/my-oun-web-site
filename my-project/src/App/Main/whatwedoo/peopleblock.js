@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactSlider from 'react-slider';
 
 
 class Peopleblock extends Component {
@@ -11,7 +12,9 @@ class Peopleblock extends Component {
             image
         } = this.props; 
         return (
+            
             <div className="grid-blocks-people">
+                
             <div className="grid-blocks-container-people">
                 <div className="ini-people">
                     <a href=""><img src={image} alt=""/></a>
@@ -25,7 +28,9 @@ class Peopleblock extends Component {
                 <button className="help-now">Help Now</button>
                 </div>
                 </div>
+                
         </div>
+        
         )
     }
 }

@@ -1,5 +1,44 @@
 @media (min-width : 750px) and (max-width : 1140px) {
-
+    .carousel-track {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .carousel-arrow.block.carousel-prev::before {
+		background-image: url(img/left.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/left.png);
+	}
+	.carousel-arrow.block.carousel-prev {
+		width: 70px;
+		margin-left: 2%;
+        height: 150px;
+        
+	}
+	.carousel-arrow.block.carousel-next::before {
+		background-image: url(img/right.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/right.png);
+	}
+	.carousel-arrow.block.carousel-next {
+		width: 70px;
+		margin-right: 2%;
+	}
+    .carousel-row {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 300px);
+        grid-gap: 25px;
+        margin-top: 2%;
+        width: 100%;
+    }
     .bottom-footer h1 {
         color: #FFFFFF;
         margin-left: 15%;
@@ -74,15 +113,45 @@
         margin-left: 15%;
         padding-top: 2.5%;
     }
-    .what-we-do-grid-people {
+    .carousel-track {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .carousel-arrow.block.carousel-prev::before {
+		background-image: url(img/left.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/left.png);
+	}
+	.carousel-arrow.block.carousel-prev {
+		width: 70px;
+		margin-left: 2%;
+	}
+	.carousel-arrow.block.carousel-next::before {
+		background-image: url(img/right.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/right.png);
+	}
+	.carousel-arrow.block.carousel-next {
+		width: 70px;
+		margin-right: 2%;
+	}
+    .carousel-row {
         display: grid;
         align-content: center;
         justify-content: center;
-        grid-template-columns: repeat(4, 250px);
+        grid-template-columns: repeat(2, 300px);
         grid-gap: 25px;
         margin-top: 2%;
         width: 100%;
     }
+
  }
  @media (min-width : 400px) and (max-width : 749px) {
     .what-client-say-grid {
@@ -92,6 +161,44 @@
         grid-template-columns: repeat(1, 350px);
         grid-gap: 25px;
         margin-top: 3%;
+        width: 100%;
+    }
+    .carousel-track {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .carousel-arrow.block.carousel-prev::before {
+		background-image: url(img/left.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/left.png);
+	}
+	.carousel-arrow.block.carousel-prev {
+		width: 70px;
+		margin-left: 2%;
+	}
+	.carousel-arrow.block.carousel-next::before {
+		background-image: url(img/right.png);
+		width: 150px;
+		height: 150px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/right.png);
+	}
+	.carousel-arrow.block.carousel-next {
+		width: 70px;
+		margin-right: 2%;
+	}
+    .carousel-row {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 300px);
+        grid-gap: 25px;
+        margin-top: 2%;
         width: 100%;
     }
     .what-client-say {

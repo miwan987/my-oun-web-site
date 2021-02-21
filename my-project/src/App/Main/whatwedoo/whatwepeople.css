@@ -1,0 +1,297 @@
+.what-we-people {
+	display: block;
+	height: 800px;
+	width: 100%;
+	background-color: #252B42;
+}
+ .gender a {
+    text-decoration: none;
+    color: #252B42;
+    
+    }
+	.gender a:visited {
+        text-decoration: none;
+        color: black;
+        
+        }
+.carousel-row {
+	display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 25px;
+    margin-top: 2%;
+    width: 100%;
+}
+.carousel-arrow.block.carousel-prev {
+	height: 10%;
+	
+}
+.grid-blocks-people {
+	display: inline-flex;
+	padding-left: 0%;
+	width: 200px;
+	height: 400px;
+	background-color: white;
+	align-self: center;
+	justify-self: center;
+	justify-content: center;
+	justify-items: center;      
+}
+.what-we-do-grid-people {
+	display: inline-block;
+	align-content: center;
+	justify-content: center;
+	
+	grid-gap: 25px;
+	margin-top: 2%;
+	width: 100%;
+	justify-items: center;
+}
+.grid-blocks-container-people {
+	padding-left: 0%;
+	padding-top: 0%;
+	
+}
+.grid-blocks-container-people h2 {
+	font-size: 19px;
+	padding-left: 8%;
+	color: #252B42;
+
+}
+.ini-people {
+	display: block;
+	align-items: center;
+}
+.grid-blocks-people p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	position: static;
+	width: 245px;
+	height: 60px;
+	left: 40px;
+	top: 98px;
+	margin-top: 7%;
+	color: #737373;
+	;
+}
+.ini-people img{
+	width: 200px;
+	height: 200px;
+}
+	.gender {
+		padding-left: 5%;
+		padding-top: 2%;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		color: black;
+	}
+	.help {
+		display: flex;
+		justify-content: center;
+		padding-top: 10%;
+	}
+	.help-now {
+		height: 35px;
+		width: 150px;
+		color: black;
+		font-size: 25px;
+		font-family: Montserrat;
+		font-style: normal;
+		background: none;
+		border:  #737373 solid 1px;
+	}
+	.help-now:hover {
+		color: white;
+		background-color: #FF7B47;
+	}
+	.help-now:active {
+		color: white;
+		background-color: black;	
+	}
+	@media (min-width : 850px) and (max-width : 1140px) {
+		.what-we-doo {
+			height: 2000px;
+		}
+		.carousel-track {
+			width: 100%;
+			display: flex;
+			position: relative;
+		}
+		.carousel-arrow.block.carousel-prev::before {
+			background-image: url(img/left.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/left.png);
+		}
+		.carousel-arrow.block.carousel-prev {
+			width: 70px;
+			margin-left: 2%;
+		}
+		.carousel-arrow.block.carousel-next::before {
+			background-image: url(img/right.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/right.png);
+		}
+		.carousel-arrow.block.carousel-next {
+			width: 70px;
+			margin-right: 2%;
+		}
+		.carousel-row {
+			display: grid;
+			align-content: center;
+			justify-content: center;
+			grid-template-columns: repeat(2, 300px);
+			grid-gap: 25px;
+			margin-top: 2%;
+			width: 100%;
+		}
+	}
+	@media (min-width : 600px) and (max-width : 849px) {
+		.what-we-doo {
+			height: 2800px;
+		}
+		.carousel-track {
+			width: 100%;
+			display: flex;
+			position: relative;
+		}
+		.carousel-arrow.block.carousel-prev::before {
+			background-image: url(img/left.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/left.png);
+		}
+		.carousel-arrow.block.carousel-prev {
+			width: 70px;
+			margin-left: 2%;
+		}
+		.carousel-arrow.block.carousel-next::before {
+			background-image: url(img/right.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/right.png);
+		}
+		.carousel-arrow.block.carousel-next {
+			width: 70px;
+			margin-right: 2%;
+		}
+		.carousel-row {
+			display: grid;
+			align-content: center;
+			justify-content: center;
+			grid-template-columns: repeat(2, 300px);
+			grid-gap: 25px;
+			margin-top: 2%;
+			width: 100%;
+		}
+	}
+	@media (min-width : 400px) and (max-width : 599px) {
+		.what-we-doo {
+			height: 5600px;
+		}
+		.carousel-track {
+			width: 100%;
+			display: flex;
+			position: relative;
+		}
+		.carousel-arrow.block.carousel-prev::before {
+			background-image: url(img/left.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/left.png);
+		}
+		.carousel-arrow.block.carousel-prev {
+			width: 70px;
+			margin-left: 2%;
+		}
+		.carousel-arrow.block.carousel-next::before {
+			background-image: url(img/right.png);
+			width: 150px;
+			height: 150px;
+		}
+		.carousel-prev:before {
+			background-image: url(img/right.png);
+		}
+		.carousel-arrow.block.carousel-next {
+			width: 70px;
+			margin-right: 2%;
+		}
+		.carousel-row {
+			display: grid;
+			align-content: center;
+			justify-content: center;
+			grid-template-columns: repeat(2, 300px);
+			grid-gap: 25px;
+			margin-top: 2%;
+			width: 100%;
+		}
+	}
+    .text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .text h1 {
+        color: white;
+        font-size: 80px;
+        text-align: center;
+    }
+    .text p {
+        color: white;
+        font-size: 16px;
+        text-align: left;
+        text-align: center;
+    }
+	.carousel-arrow.block.carousel-prev::before {
+		background-image: url(img/left.png);
+		width: 300px;
+		height: 300px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/left.png);
+	}
+	.carousel-arrow.block.carousel-prev {
+		width: 150px;
+		margin-left: 2%;
+		height: 100%;
+		
+
+
+	}
+	.carousel-arrow.block.carousel-next::before {
+		background-image: url(img/right.png);
+		width: 300px;
+		height: 300px;
+	}
+	.carousel-prev:before {
+		background-image: url(img/right.png);
+	}
+	.carousel-arrow.block.carousel-next {
+		width: 150px;
+		margin-right: 2%;
+	}
+	.carousel-initialized {
+		width: 100%;
+		position: none;
+	}

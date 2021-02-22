@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactSlider from 'react-slider';
+
 
 
 class Peopleblock extends Component {

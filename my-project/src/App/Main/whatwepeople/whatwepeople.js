@@ -2,29 +2,49 @@ import React, { Component } from 'react'
 import Peopleblock from './peopleblock'
 import './whatwepeople.css'
 import people from './people.js'
-import Slider from 'infinite-react-carousel';
-
-
+import Slider from "react-slick";
+import './slick.css'
+import './slick-theme.css'
 
 
 
     class Whatpeople extends Component  {
         render () {
-            this.state = {
-                slidesPerRow:3
-            }
-            const onSlider = () => {
-                 { if (window.screen.width < 1400) {
-                    this.setState((prevState) => ({
-                        slidesPerRow: prevState.slidesPerRow - 1
-                    })
-                  
-                    
-                )}
-                }
-                
-                
-            } 
+            var settings = {
+                dots: true,
+                infinite: false,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                initialSlide: 0,
+                responsive: [
+                  {
+                    breakpoint: 1400,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
+                      infinite: true,
+                      dots: true
+                    }
+                  },
+                  {
+                    breakpoint: 1000,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2,
+                      initialSlide: 2
+                    }
+                  },
+                  {
+                    breakpoint: 600,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
+              };
+             
             
  
                 return (
@@ -36,11 +56,11 @@ import Slider from 'infinite-react-carousel';
                     </div>
                     <div  className="what-we-do-grid-people" >
                     
-                    <Slider { ...this.state }>
+                    <Slider {...settings}>
                     {
                             
                         people.map(({
-                            id,
+                            
                             gender,
                             profession,
                             experience,
@@ -66,8 +86,8 @@ import Slider from 'infinite-react-carousel';
                         
 
                         }
-                        
                         </Slider>
+                        
                         </div>
                     
                 </div>)

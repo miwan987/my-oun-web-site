@@ -3,7 +3,7 @@ import Meatourteam from "./meatourteam/meatourteam"
 import Whatclientsay from "./whatclientsay/whatclientsay"
 import Whatweare from "./whatweare/whatweare"
 import Whatwedo from "./whatwedo/whatwedo"
-import Whatpeople from "./whatwedoo/whatwepeople"
+import Whatpeople from "./whatwepeople/whatwepeople"
 
 
 

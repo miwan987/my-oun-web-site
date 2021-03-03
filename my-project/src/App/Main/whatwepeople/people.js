@@ -10,7 +10,7 @@ const people = [
 {
     id:2,
     gender:"famale",
-    profession:"developer",
+    profession:"SEO",
     experience:2,
     age:23,
     image:"img/image2.jpg",
@@ -27,7 +27,7 @@ const people = [
 {
     id:4,
     gender:"male",
-    profession:"developer",
+    profession:"QA",
     experience:4,
     age:29,
     image:"img/image4.jpg",
@@ -43,7 +43,7 @@ const people = [
 {
     id:6,
     gender:"famale",
-    profession:"developer",
+    profession:"dev-ops",
     experience:3,
     age:46,
     image:"img/image6.jpg",
@@ -51,7 +51,7 @@ const people = [
 {
     id:7,
     gender:"male",
-    profession:"developer",
+    profession:"QA",
     experience:2,
     age:31,
     image:"img/image7.jpg",
@@ -67,7 +67,7 @@ const people = [
 {
     id:9,
     gender:"male",
-    profession:"developer",
+    profession:"dev-ops",
     experience:5,
     age:36,
     image:"img/image9.jpg"
@@ -75,7 +75,7 @@ const people = [
 {
     id:10,
     gender:"male",
-    profession:"developer",
+    profession:"SEO",
     experience:8,
     age:24,
     image:"img/image10.jpg",
@@ -83,7 +83,7 @@ const people = [
 {
     id:11,
     gender:"male",
-    profession:"developer",
+    profession:"dev-ops",
     experience:6,
     age:43,
     image:"img/image11.jpg",
@@ -91,7 +91,7 @@ const people = [
 {
     id:12,
     gender:"famale",
-    profession:"developer",
+    profession:"QA",
     experience:4,
     age:35,
     image:"img/image12.jpg",

@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import Peopleblock from './peopleblock'
-import './whatwepeople.css'
-import people from './people.js'
+import Peopleblock from '../peopleblock'
+import '../whatwepeople.css'
+import people from '../people'
 import Slider from "react-slick";
-import './slick.css'
-import './slick-theme.css'
+import '../slick.css'
+import '../slick-theme.css'
 
 
 
-    class Whatpeopleproffesion extends Component  {
+    class Whatpeopleproffesionseo extends Component  {
         render () {
 
 
@@ -104,4 +104,4 @@ import './slick-theme.css'
 
 
 
-    export default Whatpeopleproffesion;
+    export default Whatpeopleproffesionseo;

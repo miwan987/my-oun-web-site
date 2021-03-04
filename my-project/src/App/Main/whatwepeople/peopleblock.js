@@ -21,8 +21,8 @@ class Peopleblock extends Component {
                     <a href=""><img src={image} alt=""/></a>
                     <h2>I can help you</h2>
                 </div>
-                <div className="gender"><Link to="/Gender">Gender : {gender}</Link></div>
-                <div className="gender"><Link to="/Profession">Profession : {profession}</Link></div>
+                <div className="gender"><Link to={`/${gender}`}>Gender : {gender}</Link></div>
+                <div className="gender"><Link to={`/${profession}`}>Profession : {profession}</Link></div>
                 <div className="gender"><a href="">Experience : {experience}  years</a></div>
                 <div className="gender"><a href="">Age : {age}  years</a></div>
                 <div className="help">
